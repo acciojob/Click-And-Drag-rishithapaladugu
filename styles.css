@@ -68,3 +68,18 @@ body {
 
 .item:nth-child(even) { transform: scaleX(1.31) rotateY(40deg); }
 .item:nth-child(odd) { transform: scaleX(1.31) rotateY(-40deg); }
+
+/* .items{
+	position:relative;
+	display:flex;
+	flex-direction:row;
+}
+
+.item{
+	width:30px;
+	height:30px;
+	background-color:green;
+	border:2px solid black;
+	/* position:relative; */
+	/* flex-direction:row; */
+} */
