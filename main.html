@@ -138,6 +138,7 @@ function handleMouseUp() {
   // Reset all flags
   isDraggingItem = false;
   isDraggingContainer = false;
+   lastMouseEvent = null;
 
   // Remove global listeners
   document.removeEventListener('mousemove', handleMouseMove);
